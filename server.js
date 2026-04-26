@@ -14,7 +14,7 @@ dotenv.config();
 
 const app = express();
 
-// CORS configuration for production
+// CORSs configuration for production
 const allowedOrigins = process.env.FRONTEND_URL 
   ? [process.env.FRONTEND_URL, 'http://localhost:3000'] 
   : ['http://localhost:3000'];
